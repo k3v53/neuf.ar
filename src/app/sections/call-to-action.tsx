@@ -8,7 +8,7 @@ export default function CallToAction(logoFont: NextFont) {
 				<Image
 					src="https://framerusercontent.com/images/p2q5PIb8UfvdJCCjwog4cOxVc.svg"
 					layout="fill"
-					className="dark"
+					className="dark animate-up-and-down"
 					objectFit="cover"
 					alt="Logo"
 				/>
@@ -16,7 +16,8 @@ export default function CallToAction(logoFont: NextFont) {
 			<h2
 				className={`
 					text-center font-bold
-					text-6xl
+					sm:text-6xl
+					text-2xl
 					bg-black text-primary
 					rounded-xl p-4
 					${logoFont.className}
@@ -29,7 +30,7 @@ export default function CallToAction(logoFont: NextFont) {
 				nuestra comunidad hoy y descubre un mundo lleno de oportunidades y
 				conexiones.
 			</p>
-			<div className="flex space-x-4 bg-black bg-opacity-25 p-4 rounded-2xl gap-5 px-10">
+			<div className="hover:shadow-md shadow-sm transition-all flex flex-wrap justify-evenly bg-black bg-opacity-25 p-4 rounded-2xl gap-5 px-10">
 				<div className="w-16 h-16 relative rounded-full">
 					<Image
 						src="https://logo.clearbit.com/spotify.com?size=500"
@@ -40,6 +41,7 @@ export default function CallToAction(logoFont: NextFont) {
 					/>
 				</div>
 				<a
+					className="m-0"
 					href="https://www.instagram.com/comit.sde/"
 					target="_blank"
 					rel="noopener"
@@ -65,7 +67,7 @@ export default function CallToAction(logoFont: NextFont) {
 						/>
 					</div>
 				</a>
-				<div className="w-16 h-16 relative rounded-full">
+				<div className=" w-16 h-16 relative rounded-full">
 					<Image
 						src="https://logo.clearbit.com/Twitch.com?size=500"
 						layout="fill"

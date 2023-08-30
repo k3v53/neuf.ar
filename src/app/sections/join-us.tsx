@@ -3,7 +3,7 @@ import { NextFont } from '@next/font';
 export default function JoinUs(logoFont: NextFont) {
 	return (
 		<section
-			className="p-20 bg-secondary bg-center bg-cover w-full"
+			className="px-4 py-20 md:p-20 bg-secondary bg-center bg-cover w-full"
 			style={{
 				backgroundImage: `url(https://framerusercontent.com/images/f1BAtlf3U31FyMbsIKxRTIw6I.jpg)`,
 			}}

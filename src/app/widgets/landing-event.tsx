@@ -13,6 +13,7 @@ export default function LandingEvent(props: {
       bg-accent bg-opacity-30
         flex flex-col md:flex-row
         gap-5
+				items-center
         justify-between
       "
 		>
@@ -21,8 +22,8 @@ export default function LandingEvent(props: {
           rounded-xl
         "
 				src={imgSrc}
-				width={80}
-				height={80}
+				width={200}
+				height={200}
 				alt="Foto del Evento"
 			/>
 			<div className="flex flex-col w-full">

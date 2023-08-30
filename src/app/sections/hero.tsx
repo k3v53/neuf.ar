@@ -9,7 +9,7 @@ export default function LandingHero(logoFont: NextFont) {
 			items-center justify-center
 			lg:h-screen
 			bg-primary text-accent
-			w-full gap-5 p-24
+			w-full gap-5 p-10 md:p-24
 		"
 		>
 			<div className="flex flex-wrap items-center justify-center gap-5">
@@ -28,12 +28,12 @@ export default function LandingHero(logoFont: NextFont) {
 				</h1>
 			</div>
 			<div className="h-36"></div>
-			<h1 className={'md:text-8xl text-5xl  ' + logoFont.className}>
+			<h1 className={'lg:text-8xl sm:text-5xl text-2xl  ' + logoFont.className}>
 				Se parte de
 			</h1>
 			<h1
 				className={
-					'md:text-8xl text-5xl bg-accent text-primary rounded-xl p-4 ' +
+					'lg:text-8xl sm:text-5xl text-2xl bg-accent text-primary rounded-xl p-4 ' +
 					logoFont.className
 				}
 			>

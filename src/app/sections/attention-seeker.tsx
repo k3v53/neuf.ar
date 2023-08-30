@@ -7,8 +7,10 @@ export default function AttentionSeeker() {
       md:gap-10 md:p-32 md:py-60
     "
 		>
-			<h2 className="text-primary text-7xl">Eventos tech alucinantes</h2>
-			<p className="text-primary text-opacity-95 text-3xl leading-normal tracking-tighter">
+			<h2 className="text-primary md:text-7xl text-4xl">
+				Eventos tech alucinantes
+			</h2>
+			<p className="text-primary text-opacity-95 md:text-3xl text-xl leading-normal tracking-tighter">
 				Prepárate para vivir experiencias inolvidables en nuestros eventos de
 				tecnología, donde presentamos las últimas tendencias e innovaciones del
 				mundo digital. Sumérgete en charlas fascinantes, talleres prácticos y
