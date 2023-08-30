@@ -9,7 +9,7 @@ export default function LandingMember(props: {
 	return (
 		<div
 			className="flex flex-col items-center gap-6
-			p-4	rounded-lg 
+			p-4	rounded-lg flex-1
 		"
 		>
 			<Image
