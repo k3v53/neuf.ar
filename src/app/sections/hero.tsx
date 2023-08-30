@@ -7,7 +7,7 @@ export default function LandingHero(logoFont: NextFont) {
 			className="
 			flex flex-col
 			items-center justify-center
-			lg:h-screen
+			min-h-screen
 			bg-primary text-accent
 			w-full gap-5 p-10 md:p-24
 		"

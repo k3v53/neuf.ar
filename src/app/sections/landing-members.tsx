@@ -16,7 +16,7 @@ export default function LandingMembers() {
 		{ name: 'Gastón', title: 'CMO', src: '' },
 	];
 	return (
-		<section className="flex flex-wrap px-16 py-52 gap-10 justify-evenly w-full">
+		<section className="flex flex-wrap px-16 py-52 gap-10 justify-evenly w-full bg-contrast bg-opacity-10 bg-center bg-cover">
 			{members.map((item, index) => (
 				<LandingMember key={index} {...item} />
 			))}
