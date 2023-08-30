@@ -3,27 +3,41 @@ import Image from 'next/image';
 
 export default function LandingHero(logoFont: NextFont) {
 	return (
-		<section className="flex flex-col items-center justify-center h-screen bg-primary w-full gap-5 text-accent">
+		<section
+			className="
+			flex flex-col
+			items-center justify-center
+			lg:h-screen
+			bg-primary text-accent
+			w-full gap-5 p-24
+		"
+		>
 			<div className="flex flex-wrap items-center justify-center gap-5">
 				<Image
 					src="/ranita.svg"
 					alt="Logo Neuf.ar"
-					className="dark:invert"
+					className="dark:invert
+						animate-up-and-down
+					"
 					width={300}
 					height={300}
 					priority
 				/>
-				<h1 className={'text-8xl  ' + logoFont.className}>NEUF.AR</h1>
+				<h1 className={'sm:text-8xl text-4xl ' + logoFont.className}>
+					NEUF.AR
+				</h1>
 			</div>
 			<div className="h-36"></div>
-			<h1 className={'text-8xl ' + logoFont.className}>Se parte de</h1>
+			<h1 className={'md:text-8xl text-5xl  ' + logoFont.className}>
+				Se parte de
+			</h1>
 			<h1
 				className={
-					'text-8xl bg-accent text-primary rounded-xl p-4 break-words break-before-all ' +
+					'md:text-8xl text-5xl bg-accent text-primary rounded-xl p-4 ' +
 					logoFont.className
 				}
 			>
-				la tecnologia
+				la tecnologia<span className="animate-pulse-cursor text-black">|</span>
 			</h1>
 		</section>
 	);

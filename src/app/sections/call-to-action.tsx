@@ -1,27 +1,34 @@
+import { NextFont } from '@next/font';
 import Image from 'next/image';
 
-export default function CallToAction() {
+export default function CallToAction(logoFont: NextFont) {
 	return (
-		<div className="flex flex-col items-center space-y-4 bg-primary bg-opacity-95 p-10 w-full">
+		<div className="flex flex-col items-center space-y-4 bg-primary bg-opacity-95 p-10 w-full text-black">
 			<div className="w-64 h-64 relative rounded-full">
 				<Image
 					src="https://framerusercontent.com/images/p2q5PIb8UfvdJCCjwog4cOxVc.svg"
 					layout="fill"
-					className="dark:invert"
+					className="dark"
 					objectFit="cover"
 					alt="Logo"
 				/>
 			</div>
-			<div className="text-center">
-				<h2 className="text-4xl font-bold text-6xl">Anímate ya</h2>
-			</div>
-			<div className="text-center">
-				<p className="leading-relaxed">
-					No te quedes fuera de esta increíble aventura tecnológica. Únete a
-					nuestra comunidad hoy y descubre un mundo lleno de oportunidades y
-					conexiones.
-				</p>
-			</div>
+			<h2
+				className={`
+					text-center font-bold
+					text-6xl
+					bg-black text-primary
+					rounded-xl p-4
+					${logoFont.className}
+				`}
+			>
+				Animate ya
+			</h2>
+			<p className="text-center leading-relaxed text-lg w-72">
+				No te quedes fuera de esta increíble aventura tecnológica. Únete a
+				nuestra comunidad hoy y descubre un mundo lleno de oportunidades y
+				conexiones.
+			</p>
 			<div className="flex space-x-4 bg-black bg-opacity-25 p-4 rounded-2xl gap-5 px-10">
 				<div className="w-16 h-16 relative rounded-full">
 					<Image
