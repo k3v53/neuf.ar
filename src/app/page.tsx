@@ -6,6 +6,8 @@ import LandingHero from './sections/hero';
 import JoinUs from './sections/join-us';
 import LandingMembers from './sections/landing-members';
 import LandingQuote from './sections/landing-quote';
+import AttentionSeeker from './sections/attention-seeker';
+import LandingEvents from './sections/landing-events';
 const logoFont = localFont({ src: './Bord.ttf', variable: '--logo-font' });
 const headingFont = Philosopher({
 	weight: '700',
@@ -35,6 +37,8 @@ export default function Home() {
 			<JoinUs {...logoFont} />
 			<LandingQuote />
 			<LandingMembers />
+			<AttentionSeeker />
+			<LandingEvents />
 			<CallToAction {...logoFont} />
 			<Footer />
 		</main>
