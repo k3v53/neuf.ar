@@ -40,7 +40,6 @@ export default function Home() {
 			<AttentionSeeker />
 			<LandingEvents />
 			<CallToAction {...logoFont} />
-			<Footer />
 		</main>
 	);
 }
