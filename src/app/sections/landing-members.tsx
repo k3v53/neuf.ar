@@ -13,7 +13,11 @@ export default function LandingMembers() {
 			src: '/img/members/kevin.jpg',
 		},
 		{ name: 'Rocío', title: 'Estratega de Marca Digital', src: '' },
-		{ name: 'Gastón', title: 'Promotor de Comunidad', src: '' },
+		{
+			name: 'Gastón',
+			title: 'Promotor de Comunidad',
+			src: '/img/members/gaston.jpeg',
+		},
 	];
 	return (
 		<section className="flex flex-wrap px-16 py-52 gap-10 justify-evenly w-full bg-contrast bg-opacity-10 bg-center bg-cover">

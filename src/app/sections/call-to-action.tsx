@@ -42,7 +42,7 @@ export default function CallToAction(logoFont: NextFont) {
 				</div>
 				<a
 					className="m-0"
-					href="https://www.instagram.com/comit.sde/"
+					href="https://www.instagram.com/neuf.ar.sgo/"
 					target="_blank"
 					rel="noopener"
 				>

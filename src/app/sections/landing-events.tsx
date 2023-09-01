@@ -4,21 +4,28 @@ export default function LandingEvents() {
 	const events = [
 		{
 			name: 'Santiago Programa',
-			date: '01/02/2022',
-			imgSrc:
-				'https://framerusercontent.com/images/85HmKXf8gGODLkZ9EUx5XcmY7eE.jpg',
+			date: '05/2022',
+			imgSrc: '/img/events/SgoProBanner.png',
+		},
+		{
+			name: 'Visita del 1er Encuentro de Economía del Conocimiento',
+			date: '09/2022',
+			imgSrc: '/img/events/ForoRegionalCba.jpg',
 		},
 		{
 			name: 'ComIT',
-			date: '01/08/2022',
-			imgSrc:
-				'https://framerusercontent.com/images/85HmKXf8gGODLkZ9EUx5XcmY7eE.jpg',
+			date: '11/2022',
+			imgSrc: '/img/events/ComITBanner.png',
+		},
+		{
+			name: 'ComIT',
+			date: '05/2023',
+			imgSrc: '/img/events/ComITBanner.png',
 		},
 		{
 			name: 'Expo Santiago',
-			date: '30/08/2023',
-			imgSrc:
-				'https://framerusercontent.com/images/85HmKXf8gGODLkZ9EUx5XcmY7eE.jpg',
+			date: '09/2023',
+			imgSrc: '/img/events/ExpoSantiago.jpg',
 		},
 	];
 	return (

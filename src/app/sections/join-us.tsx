@@ -28,7 +28,7 @@ export default function JoinUs(logoFont: NextFont) {
 					Ser parte de Neufar significa sumergirse en un mundo lleno de
 					innovación y descubrimientos. Nuestra comunidad te brinda la
 					oportunidad de colaborar en proyectos emocionantes y aprender de los
-					más destacados profesionales del sector.
+					tópicos más relevantes del sector.
 				</p>
 			</div>
 		</section>
