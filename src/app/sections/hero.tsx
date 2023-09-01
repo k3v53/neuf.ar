@@ -16,7 +16,7 @@ export default function LandingHero(logoFont: NextFont) {
 				<Image
 					src="/ranita.svg"
 					alt="Logo Neuf.ar"
-					className="dark:invert
+					className="invert
 						animate-up-and-down
 					"
 					width={300}
